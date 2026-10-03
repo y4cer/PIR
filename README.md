@@ -1,2 +1,9 @@
-# PIR
-LWE and ZipPIR implementation
+# LWE implementation
+
+
+## Running
+To run the file, use
+
+```sh
+uv run python src/lwe.py
+```

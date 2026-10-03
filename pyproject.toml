@@ -1,0 +1,10 @@
+[project]
+name = "pir"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
+
+[tool.uv.config-settings-package.sagemath]
+build-dir = "/home/lesorub/progs/python/PIR/.build/sagemath"

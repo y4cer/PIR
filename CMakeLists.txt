@@ -10,6 +10,7 @@ pkg_check_modules(NTL REQUIRED IMPORTED_TARGET ntl)
 
 add_executable(lwe
     src/main.cpp
+    src/lwe/lwe.cpp
 )
 
 set_target_properties(lwe PROPERTIES

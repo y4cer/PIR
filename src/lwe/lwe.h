@@ -1,10 +1,18 @@
 #include <NTL/ZZ_p.h>
 
+using namespace NTL;
+
 namespace LWE {
 
-class Lwe {
+class LP {
   public:
-    int a;
+    long q; // modulus
+    long m;
+    long n;
+    long B;
+
+    LP(long q, long m, long n, long B);
+
     int f(int a);
 };
 

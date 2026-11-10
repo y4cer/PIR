@@ -6,19 +6,7 @@
 using namespace std;
 
 int main() {
-    NTL::ZZ factorial(1);
-    for (long i = 2; i <= 50; ++i) {
-        factorial *= i;
-    }
-    cout << "50! = " << factorial << '\n';
-    NTL::PrimeSeq seq;
-    string bb;
-
-    for (int i = 0; i < 1000; i++) {
-        cout << seq.next() << endl;
-    }
-
-    auto lwe = LWE::Lwe();
+    auto lwe = LWE ::LP(1, 2, 3, 4);
     cout << lwe.f(5);
 
     return 0;

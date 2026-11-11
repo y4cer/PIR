@@ -1,4 +1,5 @@
 #include <NTL/ZZ_p.h>
+#include <NTL/mat_lzz_p.h>
 
 using namespace NTL;
 

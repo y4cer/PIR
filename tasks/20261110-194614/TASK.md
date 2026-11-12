@@ -1,10 +1,11 @@
-# Add LWE sample from example 4.4 from the book
+# Implement the LWE example from Section 4.4
 
 - STATUS: OPEN
 - PRIORITY: 100
-- TAGS:
+- TAGS: LWE
 
-In the book[^1] I use, I need to implement the sample from example 4.4 with 5x3 matrix with q = 47.
+Implement Example 4.4 from the reference book[^1], using
+a 5 × 3 matrix and modulus q = 47.
 
-[1]: https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf
+[^1]: [Lattice-Based Cryptography](https://cryptography101.ca/wp-content/uploads/lattice-based-cryptography.pdf)
 

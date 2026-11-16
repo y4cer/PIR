@@ -1,10 +1,12 @@
 # Make LWE implementation
 
-- STATUS: OPEN
+- STATUS: CLOSED
 - PRIORITY: 100
 - TAGS: lwe
 
 Since ZipPIR in 20261004-081939 heavily relies on LWE, I need to implement the LWE first.
+
+done in: 20261110-194614
 
 Needed functions:
 
